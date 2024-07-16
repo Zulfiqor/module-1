@@ -1,0 +1,65 @@
+body {
+    font-family: 'Raleway', Courier, monospace;
+
+}
+h1 {
+    font-size: 140px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #262525;
+    
+    
+}
+
+p {
+    font-size: 36px;
+    line-height: 32px;
+    font-weight: 500;
+    text-align: center;
+    
+}
+
+img {
+    width: 1299px;
+    height: 743px;
+}
+
+.iphone-body {
+    width: 1261px;
+    height: 625px;
+
+    background-image: url("../resources/iPhone-body.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+    text-align: center;
+    
+    
+}
+.iphone-body-text-wrapper {
+    width: 941px;
+    height: 387px;
+    color: #fff;
+    padding: 119px 160px;
+}
+.iphone-body-text-wrapper h2 {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 125%;
+    text-transform: uppercase;
+
+}
+.iphone-body-text-wrapper h3 {
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 157%;
+}
+
+.iphone-body-text-wrapper p {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 125%;
+    color: #7a7a7a;
+}
