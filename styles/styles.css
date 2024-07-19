@@ -2,7 +2,14 @@ body {
     font-family: 'Raleway', Courier, monospace;
 
 }
-h1 {
+
+.new-iphone {
+    width: 1299px;
+    margin: 0 auto;
+    text-align: center;
+    box-sizing: border-box;
+}
+.new-iphone h1 {
     font-size: 140px;
     font-weight: 700;
     text-align: center;
@@ -13,7 +20,7 @@ h1 {
     
 }
 
-p {
+.new-iphone p {
     font-size: 36px;
     line-height: 32px;
     font-weight: 500;
@@ -21,10 +28,54 @@ p {
     
 }
 
-img {
+.new-iphone img {
     width: 1299px;
     height: 743px;
+    margin-bottom: 66px;
+    
 }
+
+.iphone {
+    width: 967px;
+    margin: 0 auto;
+    text-align: center;
+    box-sizing: border-box;
+}
+.iphone h2 {
+    font-size: 64px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #262525;
+    font-weight: 700;
+    margin-bottom: 43px;
+
+}
+
+.iphone p {
+    font-size: 24px;
+    text-align: center;
+    font-weight: 500;
+    color: #262525;
+    line-height: 157%;
+    margin-bottom: 14px;
+
+} 
+
+.select {
+    font-size: 20px;
+    text-align: center;
+    line-height: 157%;
+    color: #262525;
+    font-weight: 500;
+    
+}
+
+.iphone img {
+    width: 30px;
+    height: 30px;
+    
+}
+
 
 .iphone-body {
     width: 1261px;
@@ -35,7 +86,9 @@ img {
     background-repeat: no-repeat;
     
     text-align: center;
-    
+    margin-top: 104px;
+    margin: 0 auto;
+    box-sizing: border-box;
     
 }
 .iphone-body-text-wrapper {
@@ -49,12 +102,14 @@ img {
     font-size: 48px;
     line-height: 125%;
     text-transform: uppercase;
+    margin-bottom: 60px;
 
 }
 .iphone-body-text-wrapper h3 {
     font-weight: 500;
     font-size: 36px;
     line-height: 157%;
+    margin-bottom: 10px;
 }
 
 .iphone-body-text-wrapper p {
@@ -62,4 +117,25 @@ img {
     font-size: 24px;
     line-height: 125%;
     color: #7a7a7a;
+}
+
+
+.btn {
+    display: block;
+    width: 300px;
+    height: 50px;
+    border: 1px solid red;
+    text-align: center;
+    line-height: 50px;
+    background-color: #fff;
+    text-decoration: none;
+    color: red;
+    margin-top: 30px;
+    cursor:pointer;
+    
+}
+
+.btn:hover {
+    color: #fff;
+    background-color: red;
 }
